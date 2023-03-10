@@ -8,13 +8,20 @@
 
 body {
     font-family: Palanquin, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
+    color: #003c57
 }
 
-h1 {
+h1, h2 {
     font-family: Cinzel, sans-serif;
 }
 
-h2 {
-    font-family: Alegreya Sans, serif;
+#logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#navigation {
+    display: flex;
+    justify-content: flex-end;
 }
