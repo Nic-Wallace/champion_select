@@ -14,8 +14,15 @@ body {
 
 /* headings and logo */
 
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 h1, h2 {
     font-family: Cinzel, sans-serif;
+    font-size: 200%;
 }
 
 #heading {
@@ -24,17 +31,36 @@ h1, h2 {
     font-size: 350%;
 }
 
-#navigation {
-    display: flex;
-    justify-content: flex-end;
+.icon {
+  height: 20px;
 }
 
+/* #navigation {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  font-size: x-large;
+} */
+
+#menu {
+  list-style-type: none;
+  font-size: x-large;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
     width: 450px;
     height: 650px;
-    border: 1px solid #f1f1f1;
+    /* border: 1px solid #003c57; */
+    border: none;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
