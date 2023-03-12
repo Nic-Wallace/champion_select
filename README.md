@@ -2,15 +2,15 @@
 
 # CHAMPION SELECT
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
-
+<!-- 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website) -->
 Champion Select is a responsive website to help visitors choose the League of Legends champion most suited to their play-style. It offers a service to sign up and access one-on-one tutoring for League of Legends to improve skills with expert advice in real time.
 
 Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+<!-- Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site. -->
+https://nic-wallace.github.io/champion_select/
 
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
+<!-- If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section. -->
 
 ---
 
@@ -180,7 +180,9 @@ Who wrote the content for the website? Was it yourself - or have you made the si
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+<!-- If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used. -->
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/bartama-graphic" title="Bartama Graphic">Bartama Graphic</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/muhammad-usman" title="Muhammad_Usman">Muhammad_Usman</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/mayor-icons" title="Mayor Icons">Mayor Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  
   
 ###  Acknowledgments
 
