@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Cinzel:wght@600&family=Palanquin:wght@100&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    border: none;
+  padding: 0;
+  margin: 0;
+  border: none;
   }
 
 body {
-    font-family: Palanquin, sans-serif;
-    font-weight: 300;
-    color: #003c57
+  font-family: Palanquin, sans-serif;
+  font-weight: 700;
+  color: #003c57;
 }
 
 /* headings and logo */
@@ -31,29 +31,51 @@ h1, h2 {
     font-size: 350%;
 }
 
+#heading:hover {
+  color: #10c5e3;
+}
+
 .icon {
   height: 20px;
 }
 
-/* #navigation {
+.nav-toggle {
+  display: none;
+}
+nav {
   display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  font-size: x-large;
-} */
+  align-content: center;
+  display: none;
+}
+
+.nav-toggle:checked ~ nav {
+  display: block;
+}
 
 #menu {
   list-style-type: none;
   font-size: x-large;
+  font-weight: 800;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 #menu a {
   text-decoration: none;
   color: inherit;
 }
+
+#menu a:hover {
+  color: #10c5e3;
+}
+
+#menu li {
+  margin-right: 40px;
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
