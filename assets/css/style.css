@@ -4,48 +4,88 @@
   padding: 0;
   margin: 0;
   border: none;
+  font-size: 90%;
   }
 
 body {
   font-family: Palanquin, sans-serif;
   font-weight: 700;
   color: #003c57;
+  text-decoration: none;
+  align-items: center;
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+}
 /* headings and logo */
 
 header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 h1, h2 {
     font-family: Cinzel, sans-serif;
     font-size: 200%;
-}
+} 
 
 #heading {
     display: flex;
     justify-content: flex-start;
     font-size: 350%;
+    color: #003c57;
 }
 
 #heading:hover {
   color: #10c5e3;
 }
 
+#icon {
+  height: 40px;
+  padding: 15px;
+  display: flex;
+  align-items:flex-end;
+}
+
 .icon {
   height: 20px;
+  padding: 0px;
 }
 
 .nav-toggle {
   display: none;
 }
+
+/* .nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: red;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+} */
+
+/* .nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+} */
+
+.nav-toggle-label span::before {
+
+}
 nav {
   display: flex;
   align-content: center;
   display: none;
+  justify-content: flex-end;
+  /* transform: scale(.5); */
 }
 
 .nav-toggle:checked ~ nav {
