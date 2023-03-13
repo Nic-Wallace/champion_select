@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   border: none;
-  font-size: 90%;
+  font-size: 100%;
   }
 
 body {
@@ -13,19 +13,21 @@ body {
   color: #003c57;
   text-decoration: none;
   align-items: center;
+  background-color: #E4A155;
 }
 
 html, body {
   margin: 0;
   height: 100%;
 }
-/* headings and logo */
 
+/* headings and logo */
 header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  background-color: #003c57;
 }
 
 h1, h2 {
@@ -37,7 +39,7 @@ h1, h2 {
     display: flex;
     justify-content: flex-start;
     font-size: 350%;
-    color: #003c57;
+    color: #E4A155;
 }
 
 #heading:hover {
@@ -85,7 +87,7 @@ nav {
   align-content: center;
   display: none;
   justify-content: flex-end;
-  /* transform: scale(.5); */
+  color: #E4A155;
 }
 
 .nav-toggle:checked ~ nav {
@@ -116,6 +118,54 @@ nav {
   margin-right: 40px;
 }
 
+/* flexbox for meet your match section */
+#meet-your-match {
+  display: flex;
+}
+
+#meet-your-match img {
+  max-width: 100%;
+}
+
+#meet-your-match div {
+  position: absolute;
+  align-items: center;
+}
+
+#meet-your-match h2 {
+  text-align: center;
+  order: 1;
+}
+
+#meet-your-match p {
+  text-align: center;
+  order: 2;
+}
+
+/* flexbox for ultimate smurf section */
+#ultimate-smurf {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#ultimate-smurf img {
+  max-width: 100%;
+}
+
+#ultimate-smurf div {
+  position: absolute;
+  align-items: center;
+}
+
+#ultimate-smurf h2 {
+  text-align: center;
+  order: 1;
+}
+
+#ultimate-smurf p {
+  text-align: center;
+  order: 2;
+}
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
