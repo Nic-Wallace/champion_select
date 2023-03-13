@@ -5,13 +5,13 @@
   margin: 0;
   border: none;
   font-size: 100%;
+  text-decoration: none;
   }
 
 body {
   font-family: Palanquin, sans-serif;
   font-weight: 700;
   color: #003c57;
-  text-decoration: none;
   align-items: center;
   background-color: #E4A155;
 }
@@ -31,15 +31,15 @@ header {
 }
 
 h1, h2 {
-    font-family: Cinzel, sans-serif;
-    font-size: 200%;
+  font-family: Cinzel, sans-serif;
+  font-size: 200%;
 } 
 
 #heading {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 350%;
-    color: #E4A155;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 7vw;
+  color: #E4A155;
 }
 
 #heading:hover {
@@ -79,9 +79,9 @@ h1, h2 {
   position: absolute;
 } */
 
-.nav-toggle-label span::before {
+/* .nav-toggle-label span::before {
 
-}
+} */
 nav {
   display: flex;
   align-content: center;
@@ -118,9 +118,10 @@ nav {
   margin-right: 40px;
 }
 
-/* flexbox for meet your match section */
+/* styling for meet your match section */
 #meet-your-match {
   display: flex;
+  align-items: center;
 }
 
 #meet-your-match img {
@@ -135,6 +136,7 @@ nav {
 #meet-your-match h2 {
   text-align: center;
   order: 1;
+  font-size: 6vw;
 }
 
 #meet-your-match p {
@@ -142,10 +144,26 @@ nav {
   order: 2;
 }
 
-/* flexbox for ultimate smurf section */
+#match-text {
+  width: 40vw;
+  font-size: 2.5vw;
+}
+
+main {
+  color: #E4A155;
+}
+
+figure {
+  padding:0%;
+  border:0%;
+  margin: 0%;
+}
+/* styling for ultimate smurf section */
 #ultimate-smurf {
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
+  margin-top: -10px;
 }
 
 #ultimate-smurf img {
@@ -160,12 +178,20 @@ nav {
 #ultimate-smurf h2 {
   text-align: center;
   order: 1;
+  font-size: 6vw;
 }
 
 #ultimate-smurf p {
+  align-items: flex-end;
   text-align: center;
   order: 2;
 }
+
+#smurf-text {
+  width: 40vw;
+  font-size: 2.5vw;
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
