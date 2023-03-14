@@ -158,6 +158,7 @@ figure {
   border:0%;
   margin: 0%;
 }
+
 /* styling for ultimate smurf section */
 #ultimate-smurf {
   display: flex;
@@ -192,49 +193,82 @@ figure {
   font-size: 2.5vw;
 }
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* The flip card container */
 .flip-card {
-    background-color: transparent;
-    width: 450px;
-    height: 650px;
-    /* border: 1px solid #003c57; */
-    border: none;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
+  background-color: transparent;
+  width: 450px;
+  height: 650px;
+  border: none;
+  perspective: 1000px;
+}
   
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
+/* position the front and back side of card */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
   
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
   
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
+/* Position of front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
   
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #003c57;
-    color:#fff;
-  }
+/* fallback if image is missing */
+.flip-card-front {
+  background-color: #003c57;
+  color:#fff;
+}
   
-  /* Style the back side */
-  .flip-card-back {
-    background-color: #003c57;
-    color: #fff;
-    transform: rotateY(180deg);
-  }
+.flip-card-back {
+  background-color: #003c57;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+
+/* footer styling */
+.footer {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  max-height: 1080px;
+  margin-top: -10px;
+}
+
+#socials {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  min-width: 100%;
+  justify-content: center;
+}
+
+#socials ul {
+  display: flex;
+  z-index: 1;
+  list-style-type: none;
+  justify-content: center;
+  align-items:flex-end;
+}
+
+#socials img {
+  max-width: 100%;
+  min-width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+#socials figure {
+  min-width: 100%;
+}
+
