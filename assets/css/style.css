@@ -47,14 +47,14 @@ h1, h2 {
 }
 
 #icon {
-  height: 40px;
+  height: 6vw;
   padding: 15px;
   display: flex;
   align-items:flex-end;
 }
 
 .icon {
-  height: 20px;
+  height: 6vw;
   padding: 0px;
 }
 
@@ -108,6 +108,9 @@ nav {
 #menu a {
   text-decoration: none;
   color: inherit;
+  align-items: center;
+  display: flex;
+  margin-bottom: 5px;
 }
 
 #menu a:hover {
@@ -116,6 +119,9 @@ nav {
 
 #menu li {
   margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* styling for meet your match section */
