@@ -30,6 +30,11 @@ header {
   background-color: #003c57;
 }
 
+header a {
+  display: flex;
+  align-items: start;
+}
+
 h1, h2 {
   font-family: Cinzel, sans-serif;
   font-size: 200%;
@@ -40,17 +45,21 @@ h1, h2 {
   justify-content: flex-start;
   font-size: 7vw;
   color: #E4A155;
+  margin-left: 2vw;
+  margin-top: .5vw
 }
 
 #heading:hover {
   color: #10c5e3;
 }
 
+/* navigation */
 #icon {
   height: 6vw;
   padding: 15px;
   display: flex;
   align-items:flex-end;
+  margin-left: auto;
 }
 
 .icon {
@@ -91,7 +100,9 @@ nav {
 }
 
 .nav-toggle:checked ~ nav {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 #menu {
@@ -111,6 +122,7 @@ nav {
   align-items: center;
   display: flex;
   margin-bottom: 5px;
+  font-size: 3vw
 }
 
 #menu a:hover {
@@ -118,7 +130,7 @@ nav {
 }
 
 #menu li {
-  margin-right: 40px;
+  margin-right: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
