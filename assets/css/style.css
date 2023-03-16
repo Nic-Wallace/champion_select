@@ -46,7 +46,7 @@ h1, h2 {
   font-size: 7vw;
   color: #E4A155;
   margin-left: 2vw;
-  margin-top: .5vw
+  margin-top: .5vw;
 }
 
 #heading:hover {
@@ -260,7 +260,7 @@ figure {
   display: flex;
   align-content: flex-end;
   justify-content: center;
-  max-height: 1080px;
+  height: 100%;
   margin-top: -10px;
 }
 
@@ -279,7 +279,7 @@ figure {
   align-items:flex-end;
 }
 
-#socials img {
+/* #socials img {
   max-width: 100%;
   min-width: 100%;
   z-index: 0;
@@ -288,5 +288,33 @@ figure {
 
 #socials figure {
   min-width: 100%;
+} */
+
+#selfie img {
+  max-width: 100%;
+  min-width: 100%;
+  z-index: 0;
+  position: absolute;
+  margin-top: -8px;
 }
 
+#selfie figure {
+  min-width: 100%;
+}
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* #content-wrap {
+  padding-bottom: 2.5rem;   
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;       
+}  */
