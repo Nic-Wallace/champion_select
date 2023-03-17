@@ -11,10 +11,13 @@
     <title>Champion Select</title>
 </head>
 <body>
+
+    <!-- header and nav -->
     <header>
         <a href="index.html" style="text-decoration: none;">
             <h1 id="heading">Champion Select</h1>
         </a>
+        <!-- collapsible navbar -->
         <input type="checkbox" class="nav-toggle" id="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
             <span><img src="assets/images/icons/rank_color.png" alt="triple chevron menu toggle" id="icon"></a></span>
@@ -30,15 +33,43 @@
             </ul>
         </nav>
     </header>
+
+    <!-- main -->
     <main>
         <section class="sign-up">
             <h2>Sign Up Now!</h2>
             <p>For access to the most valuable information on all 163 League of Legends champions</p>
             <div>
-                <form action=""></form>
+                <!-- sign-up form -->
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="first_name" id="fname" class="text-input" required>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="last_name" id="lname" class="text-input" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" class="text-input" required>
+                    <label for="username">League of Legends Username</label>
+                    <input type="text" name="username" id="username" class="text-input" required>
+                    <div>
+                    <h3>Which roles are you most interested in learning about?</h3>
+                    <label for="role1">Top</label>
+                    <input type="checkbox" name="role1" id="role1" value="top" class="checkbox">
+                    <label for="role2">Jungle</label>
+                    <input type="checkbox" name="role2" id="role2" value="jungle" class="checkbox">
+                    <label for="role3">Middle</label>
+                    <input type="checkbox" name="role3" id="role3" value="middle" class="checkbox">
+                    <label for="role4">Bottom</label>
+                    <input type="checkbox" name="role4" id="role4" value="bottom" class="checkbox">
+                    <label for="role5">Support</label>
+                    <input type="checkbox" name="role5" id="role5" value="support" class="checkbox">
+                    <input type="submit" id="submit" value="Sumbit">
+                    </div>
+                </form>
             </div>
         </section>
     </main>
+
+    <!-- footer -->
     <footer>
         
     </footer>

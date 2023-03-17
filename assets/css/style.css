@@ -256,6 +256,15 @@ figure {
   transform: rotateY(180deg);
 }
 
+
+/* sign-up page */
+.sign-up {
+  background-image: url(../images/lol_piltover.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 /* footer styling */
 footer {
   max-width: 100%;
