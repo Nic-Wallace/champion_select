@@ -72,26 +72,6 @@ h1, h2 {
   display: none;
 }
 
-/* .nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  display: block;
-  background: red;
-  height: 2px;
-  width: 2em;
-  border-radius: 2px;
-  position: relative;
-} */
-
-/* .nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  content: '';
-  position: absolute;
-} */
-
-/* .nav-toggle-label span::before {
-
-} */
 nav {
   display: flex;
   align-content: center;
@@ -283,6 +263,7 @@ figure {
   background-color: rgba(0, 0, 0, .6);
   color: #E4A155;
   padding: 10px;
+  font-size: large;
 }
 
 #signup-form > div {
@@ -302,10 +283,21 @@ figure {
   font-size: larger;
 }
 
-.checkbox {
-  
+#submit {
+  border: 1px solid #E4A155;
+  border-radius: 2px;
+  display: flex;
+  padding: 4.5px;
+  background-color: #003c57;
+  color: #E4A155;
+  font-size: large;
+  margin: 5px 4px 3px 4px;
 }
 
+.submit {
+  display: flex;
+  justify-content: center;
+}
 
 /* champions page */
 .champions {
