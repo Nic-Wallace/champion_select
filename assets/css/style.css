@@ -258,13 +258,54 @@ figure {
 
 
 /* sign-up page */
-.sign-up {
+
+#signup-main {
   background-image: url(../images/lol_piltover.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
-  color: #003c57;
 }
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #003c57;
+  padding: 20px;
+}
+
+.sign-up > div {
+  padding: 10px;
+}
+
+#signup-form {
+  background-color: rgba(0, 0, 0, .6);
+  color: #E4A155;
+  padding: 10px;
+}
+
+#signup-form > div {
+  width: 100%;
+}
+
+.text-input {
+  width: 100%;
+  background: rgba(0, 0, 0, .6);
+  border: 2px solid #E4A155;
+  border-radius: 1px;
+  color: #fff;
+}
+
+.signup-list {
+  list-style-type: none;
+  font-size: larger;
+}
+
+.checkbox {
+  
+}
+
 
 /* champions page */
 .champions {
