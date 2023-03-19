@@ -247,8 +247,12 @@ figure {
   align-items: center;
 }
 
-.champions:first-child {
-  background: rgba(0, 0, 0, .4);;
+#sneak-peak {
+  background: rgba(0, 0, 0, .4);
+  margin: 30px;
+  padding: 10px;
+  font-size: smaller;
+  text-align: center;
 }
 
 
