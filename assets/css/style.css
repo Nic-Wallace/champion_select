@@ -246,6 +246,9 @@ figure {
   background-color: #003c57;
   color: #E4A155;
   transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 
 #last-card {
@@ -269,6 +272,54 @@ figure {
   font-size: smaller;
   text-align: center;
   margin-top: 60px;
+}
+
+#soraka-text {
+  position: absolute;
+  z-index: 1;
+  width: inherit;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px 0px 10px 0px;
+}
+
+#soraka-img {
+  position: relative;
+}
+
+#lux-text {
+  position: absolute;
+  z-index: 1;
+  width: inherit;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px 0px 10px 0px;
+}
+
+#lux-img {
+  position: relative;
+}
+
+#blitz-text {
+  position: absolute;
+  z-index: 1;
+  width: inherit;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px 0px 10px 0px;
+}
+
+#blitz-img {
+  position: relative;
+}
+
+#alistar-text {
+  position: absolute;
+  z-index: 1;
+  width: inherit;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px 0px 10px 0px;
+}
+
+#alistar-img {
+  position: relative;
 }
 
 
