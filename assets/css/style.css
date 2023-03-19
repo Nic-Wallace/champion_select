@@ -192,13 +192,16 @@ figure {
   font-size: 2.5vw;
 }
 
+
+/* champions page */
 /* The flip card container */
 .flip-card {
   background-color: transparent;
   width: 450px;
   height: 650px;
   border: none;
-  perspective: 1000px;
+  perspective: 3000px;
+  margin: 30px;
 }
   
 /* position the front and back side of card */
@@ -226,18 +229,29 @@ figure {
   
 /* fallback if image is missing */
 .flip-card-front {
-  background-color: #003c57;
-  color:#fff;
+  background-image: url(../images/lol_ahri.png);
+  font-size: xx-large;
+  color: #E4A155;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
+.flip-card-front ul {
+  list-style-type: disclosure-closed;
+  text-align: left;
+}
+
 .flip-card-back {
   background-color: #003c57;
-  color: #fff;
+  color: #E4A155;
   transform: rotateY(180deg);
 }
 
+#last-card {
+  margin-bottom: 100px;
+}
 
-/* champions page */
 .champions {
   background-image: url(../images/lol_stone.png);
   background-position: center;
@@ -245,6 +259,7 @@ figure {
   justify-items: center;
   flex-direction: column;
   align-items: center;
+  /* background-color: #d2ac76; */
 }
 
 #sneak-peak {
@@ -253,6 +268,7 @@ figure {
   padding: 10px;
   font-size: smaller;
   text-align: center;
+  margin-top: 60px;
 }
 
 
