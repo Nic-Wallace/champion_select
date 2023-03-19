@@ -237,8 +237,22 @@ figure {
 }
 
 
-/* sign-up page */
+/* champions page */
+.champions {
+  background-image: url(../images/lol_stone.png);
+  background-position: center;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+}
 
+.champions:first-child {
+  background: rgba(0, 0, 0, .4);;
+}
+
+
+/* sign-up page */
 #signup-main {
   background-image: url(../images/lol_piltover.png);
   background-size: cover;
@@ -297,16 +311,6 @@ figure {
 .submit {
   display: flex;
   justify-content: center;
-}
-
-/* champions page */
-.champions {
-  background-image: url(../images/lol_stone.png);
-  background-position: center;
-  display: flex;
-  justify-items: center;
-  flex-direction: column;
-  align-items: center;
 }
 
 
