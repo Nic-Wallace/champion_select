@@ -64,8 +64,9 @@ h1, h2 {
 }
 
 .icon {
-  height: 6vw;
+  height: 5vw;
   padding: 0px;
+  margin: 5px;
 }
 
 .nav-toggle {
@@ -420,8 +421,28 @@ footer figure img {
   max-width: 100%;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 900px) {
   #signup-form {
-    min-width: 50%;
+    max-width: 60%;
+  }
+
+  #heading {
+    font-size: 5vw;
+  }
+
+  #meet-your-match h2 {
+    font-size: 5vw;
+  }
+
+  #ultimate-smurf h2 {
+    font-size: 5vw;
+  }
+
+  #menu a {
+    font-size: 2vw;
+  }
+
+  .icon {
+    height: 3vw;
   }
 }
