@@ -389,8 +389,11 @@ figure {
 /* footer styling */
 footer {
   max-width: 100%;
-  /* position: relative; */
   margin: -10px auto;
+}
+
+.alt-footer {
+  margin-top: 15px;
 }
 
 #socials {
@@ -404,16 +407,13 @@ footer {
  */
 }
 
-.socials-fix {
-  margin: 0px;
-}
-
 #socials li {
   list-style: none;
 }
 
 #socials li a {
   color: #E4A155;
+  font-size: x-large;
 }
 
 footer figure img {
