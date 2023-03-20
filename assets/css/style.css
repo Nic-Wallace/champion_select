@@ -328,7 +328,7 @@ figure {
   background-image: url(../images/lol_piltover.png);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .sign-up {
@@ -388,7 +388,7 @@ figure {
 /* footer styling */
 footer {
   max-width: 100%;
-  position: relative;
+  /* position: relative; */
   margin: -10px auto;
 }
 
@@ -397,8 +397,14 @@ footer {
   flex-wrap: wrap-reverse;
   min-width: 100%;
   justify-content: space-evenly;
-  position: absolute;
-  bottom: 1.5em;
+  padding-bottom: 1em;
+  /* position: absolute; */
+  /* bottom: 1.5em;
+ */
+}
+
+.socials-fix {
+  margin: 0px;
 }
 
 #socials li {
@@ -412,4 +418,10 @@ footer {
 footer figure img {
   min-width: 100%;
   max-width: 100%;
+}
+
+@media (min-width: 850px) {
+  #signup-form {
+    min-width: 50%;
+  }
 }
