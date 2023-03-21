@@ -75,23 +75,43 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
-- **Feature #1**
+- **Navigation Bar**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This feature increases accessability and improves the sites appearance. The title will bring the user back to the home page when clicked, which adds value for the user as it will speed up navigation across the site. To remove clutter and add value to the site, the rest of the navigation buttons are conveniently accessed when the chevron menu button is pressed. Icons have been included to show relevance to the user and reflect the purpose of the site with the trophy for home, helmet for champions, and scroll for the signup page.
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/navbar.png)
+![screenshot](documentation/navbar_dropdown.png)
 
-- **Feature #2**
+- **Home Page**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This is the first thing the user sees when they land on the site. It is valuable to the user as it communicates quickly that the aim of Champion Select is to help them pick a champion that they will play well with, and that they can sign up to the service to up their game and learn from experienced players. This is valuable to the site because it effectively communicates that there is a service being offered. The images used are of champions from the game, which will give the users an immediate connection to League of Legends.
 
-![screenshot](documentation/feature02.png)
+![screenshot](documentation/homepage.png)
 
-- **Feature #3**
+- **Flipcards**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The flipcards enable the user to interact with this element of the page and make a choice between four cards. This gives them insight into what the services offered will be like once they sign up. The flipcards also allow the site to maintain its sleek clutter-free appearance. Once the user moves the cursor over the card, it will flip over giving a 3D perspective of the card as it rotates. This fun feature aims to make the user feel like they are playing a game, and display important information on the champion that is revealed. Image one is the front of the card, and image two is the back.
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/flipcard_front.png)
+![screenshot](documentation/flipcard_back.png)
+
+- **Signup Page**
+
+    - This page allows the user to sign up to the service offered by Champion Select. After putting in their name, email and game username, they can select which roles they are most interested in learning about once they sign up. This will give Champion Select an insight into what information will be most accessed by their users. The text fields are required, which will prevent incorect information being sent.
+
+![screenshot](documentation/signup.png)
+
+- **Confirmation**
+
+    - Once the user has clicked submit on the signup page, a confirmation message will appear and redirect them to the home page once ten seconds has elapsed. This is valuable because it communicates to the user that their form has been successfully submitted. The file that contains this feature is [here](confirmation.html)
+
+![screenshot](documentation/confirmation.png)
+
+- **Footer**
+
+    - This section contains icons that link to relevant social media pages for Champion Select. These open in new tabs which is valuable to the user as well as being valuable to the site, as the user will still have the site open on a tab and will be more likely to come back once they have visited the social media account. The links to social media encourage the user to stay connected to Champion Select and join the community of other users.
+
+![screenshot](documentation/footer.png)
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
