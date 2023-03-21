@@ -2,188 +2,386 @@
 
 # CHAMPION SELECT
 
-<!-- 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website) -->
-Champion Select is a responsive website to help visitors choose the League of Legends champion most suited to their play-style. It offers a service to sign up and access one-on-one tutoring for League of Legends to improve skills with expert advice in real time.
+The website targets players of the multiplayer online battle arena video game, League of Legends. The service that Champion Select provides aims to reduce the massive learning curve that new players encounter when trying to choose from 163 playable champions, which can make the game feel too difficult to enjoy when you have little experience. It also targets existing players that want to learn a new role within the game, which can feel like you are starting from scratch. Users can immediately get insight into the services offered if they sign up by viewing a condensed version of the Champion Select matching section where the user is able to select who they want to play based off of their desired playstyle.
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+![screenshot](documentation/mockup.png)
 
-<!-- Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site. -->
-https://nic-wallace.github.io/champion_select/
+## UX
 
-<!-- If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section. -->
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
----
+In this section, you will briefly explain your design processes.
 
-## CONTENTS
-
-* [User Experience](#user-experience-ux)
-  * [User Stories](#user-stories)
-
-* [Design](#design)
-  * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-
-* [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
-
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-
-* [Testing](#testing)
-
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
-
----
-
-## User Experience (UX)
-
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
-
-### User Stories
-
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
-
-## Design
-
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+Explain your colours and the colour scheme.
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+- `#000000` used for primary text.
+- `#E84610` used for primary highlights.
+- `#4A4A4F` used for secondary text.
+- `#009FE3` used for secondary highlights.
+
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+
+Consider adding a link and screenshot for your colour scheme using "coolors".
+https://coolors.co/generate
+
+When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
+
+Example:
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
+
+![screenshot](documentation/coolors.png)
+
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+
+If you've used CSS `:root` variables, consider also including a code snippet here!
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
+
+```css
+:root {
+    /* P = Primary | S = Secondary */
+    --p-text: #000000;
+    --p-highlight: #E84610;
+    --s-text: #4A4A4F;
+    --s-highlight: #009FE3;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+```
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
 
-I also like to include an image of the fonts chosen as a reference.
+Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
 
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+Example:
 
-### Imagery
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-Use this section to explain what sort of imagery you plan to use through your site.
+- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
 
-### Wireframes
+- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
 
-Add the images or links for your wireframes here.
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
+## User Stories
 
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+
+In this section, list all of your user stories for the project.
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+### New Site Users
+
+- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to ____________, so that I can ____________.
+
+### Returning Site Users
+
+- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to ____________, so that I can ____________.
+
+### Site Admin
+
+- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to ____________, so that I can ____________.
+
+## Wireframes
+
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+
+In this section, display your wireframe screenshots using a Markdown `table`.
+
+Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+
+### Home Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
+
+### About Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
+
+### Contact Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile-contact.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
+
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+
+Repeat for any addition wireframe pages you have.
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-This section can be used to explain what pages your site is made up of.
+In this section, you should go over the different parts of your project,
+and describe each in a sentence or so.
 
-### General features on each page
+You will need to explain what value each of the features provides for the user,
+focusing on who this website is for, what it is that they want to achieve,
+and how your project is the best way to help them achieve these things.
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+For some/all of your features, you may choose to reference the specific project files that implement them.
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+IMPORTANT: Remember to always include a screenshot of each individual feature!
 
-### Future Implementations
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+### Existing Features
 
-### Accessibility
+- **Feature #1**
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
+![screenshot](documentation/feature01.png)
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
+- **Feature #2**
 
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-## Technologies Used
+![screenshot](documentation/feature02.png)
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
+- **Feature #3**
 
-### Languages Used
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+![screenshot](documentation/feature03.png)
 
-### Frameworks, Libraries & Programs Used
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Add any frameworks, libraries or programs used while creating your project.
+Repeat as necessary for as many features as your site contains.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Hint: the more, the merrier!
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-## Deployment & Local Development
+### Future Features
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-### Deployment
+Do you have additional ideas that you'd like to include on your project in the future?
+Fantastic! List them here!
+It's always great to have plans for future improvements!
+Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-### Local Development
+- Cool new feature #1
+    - Any additional notes about this feature.
+- Cool new feature #2
+    - Any additional notes about this feature.
+- Cool new feature #3
+    - Any additional notes about this feature.
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
+## Tools & Technologies Used
 
-#### How to Fork
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Place instructions on how to fork your project here.
+In this section, you should explain the various tools and technologies used to develop the project.
+Make sure to put a link (where applicable) to the source, and explain what each was used for.
+Some examples have been provided, but this is just a sample only, your project might've used others.
+Feel free to delete any unused items below as necessary.
 
-#### How to Clone
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-Place instructions on how to clone your project here.
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and/or [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
+- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
+- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
+- [JavaScript](https://www.javascript.com) used for user interaction on the site.
+- [Python](https://www.python.org) used as the back-end programming language.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+- [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) used to help generate the Markdown files.
+- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
+- [Django](https://www.djangoproject.com) used as the Python framework for the site.
+- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
+- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
+- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
+- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
+- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
+- [Cloudinary](https://cloudinary.com) used for online static file storage.
+- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
+- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+- In the [GitHub repository](https://github.com/Nic-Wallace/champion_select), navigate to the Settings tab 
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://nic-wallace.github.io/champion_select)
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/Nic-Wallace/champion_select) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/Nic-Wallace/champion_select.git`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Nic-Wallace/champion_select)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Nic-Wallace/champion_select)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+### Local VS Deployment
+
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+
+Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
+In this section you need to reference where you got your content, media, and extra help from.
+It is common practice to use code from other repositories and tutorials,
+however, it is important to be very specific about these sources to avoid plagiarism.
 
-### Code Used
-
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-###  Media
+Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
+A few examples have been provided below to give you some ideas.
 
-<!-- If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used. -->
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/bartama-graphic" title="Bartama Graphic">Bartama Graphic</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/muhammad-usman" title="Muhammad_Usman">Muhammad_Usman</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/mayor-icons" title="Mayor Icons">Mayor Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
-<br>
+Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
 
-###  Acknowledgments
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
+| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
+| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
+| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
+| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
+| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
+| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
+| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+
+### Media
+
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+
+Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
+A few examples have been provided below to give you some ideas.
+
+If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
+Let the assessors know that you have explicit rights to use the media files within your project.
+
+Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
+The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
+by sending yourself the following command: `!freemedia`.
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
+| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
+| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
+| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
+| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
+| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
+| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+
+### Acknowledgements
+
+⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+
+Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
+A few examples have been provided below to give you some ideas.
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+- I would like to thank my Code Institute mentor, [John/Jane Doe](https://github.com/username) for their support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
+- I would like to thank my spouse/partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
