@@ -203,6 +203,7 @@ figure {
   border: none;
   perspective: 3000px;
   margin: 30px;
+  max-width: 90vw;
 }
   
 /* position the front and back side of card */
