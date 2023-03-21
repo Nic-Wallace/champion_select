@@ -178,31 +178,27 @@ You can fork this repository by using the following steps:
 
 ### Media
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
+| [LeagueOfLegends](https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg) | champions page | image | Alistar flip card |
+| [Peakpx](https://w0.peakpx.com/wallpaper/133/862/HD-wallpaper-video-game-legends-of-runeterra-tristana-league-of-legends.jpg) | home page | image | ultimate smurf background |
+| [OneEsports](https://cdn.oneesports.gg/cdn-data/2022/03/LeagueofLegends_ArcanaAhriSkinSplashArt-1024x576.webp) | champions page | image | front of flip cards |
+| [PinImg](https://i.pinimg.com/originals/d2/fd/91/d2fd91b78201c856ffa72a883acd6ffe.png) | champions page | image | repeating background image |
+| [Wikia](https://static.wikia.nocookie.net/arcane/images/7/7a/Piltover_Season_1_Episode_4_001.png/revision/latest?cb=20211206231717) | signup page | image | Signup page background |
+| [WallpaperAccess](https://wallpaperaccess.com/full/1559842.jpg) | home page | image | meet your match background |
+| [BlogOfLegends](https://blogoflegends.com/files/2017/06/Amumu_8.jpg) | home page | image | image for footer |
+| [WallpaperCave](https://wallpapercave.com/wp/wp5510314.jpg) | champions page | image | Lux flip card |
+| [WallpaperAccess](https://wallpaperaccess.com/full/1930095.jpg) | champions page | image | Soraka flip card |
+| [AlphaCoders](https://mfiles.alphacoders.com/701/thumb-701043.png) | champions page | image | Blitzcrank flip card |
+| [Photopea](https://www.photopea.com/) | entire site | image | tool for image editing |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [FlatIcon](https://www.flaticon.com/free-icon/rank_1805899?related_id=1805877&origin=search) | nav bar | image | chevron menu icon |
+| [FlatIcon](https://www.flaticon.com/free-icon/script_9160409) | nav bar | image | signup page icon |
+| [FlatIcon](https://www.flaticon.com/free-icon/trophy_420105) | nav bar | image | home page icon |
+| [FlatIcon](https://www.flaticon.com/free-icon/helmet_2286333) | nav bar | image | champions page icon |
+| [FontAwesome](https://fontawesome.com/icons/instagram?f=brands&s=solid) | footer | icon | instagram icon |
+| [FontAwesome](https://fontawesome.com/icons/youtube?f=brands&s=solid) | footer | icon | youtube icon |
+| [FontAwesome](https://fontawesome.com/icons/twitter?f=brands&s=solid) | footer | icon | twitter icon |
 
 ### Acknowledgements
 
