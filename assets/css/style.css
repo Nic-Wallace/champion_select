@@ -14,7 +14,6 @@ body {
   color: #003c57;
   align-items: center;
   background-color: #000000;
-  /* background-color: #E4A155; */
 }
 
 html, body {
@@ -118,7 +117,7 @@ nav {
   align-items: center;
 }
 
-/* styling for meet your match section */
+/* meet your match section */
 #meet-your-match {
   display: flex;
   align-items: center;
@@ -159,7 +158,7 @@ figure {
   margin: 0;
 }
 
-/* styling for ultimate smurf section */
+/* ultimate smurf section */
 #ultimate-smurf {
   display: flex;
   flex-direction: row-reverse;
@@ -264,7 +263,6 @@ figure {
   justify-items: center;
   flex-direction: column;
   align-items: center;
-  /* background-color: #d2ac76; */
 }
 
 #sneak-peak {
