@@ -386,6 +386,11 @@ figure {
   justify-content: center;
 }
 
+#confirmation-link {
+  color: #10c5e3;
+  text-decoration: none;
+} 
+
 
 /* footer styling */
 footer {
